@@ -19,5 +19,5 @@ class Note(Base):
     )
     date_of_creation=Column(
         DateTime,
-        datetime,default=datetime.now
+        default=datetime.now
     )
